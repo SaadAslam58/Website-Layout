@@ -1,0 +1,111 @@
+body
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box
+}
+header 
+{
+background-color:rgb(214, 77, 27);
+color: antiquewhite;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header .logo h1 {
+margin:0px;
+
+
+}
+ header nav ul {
+ list-style: none;
+ display: flex;
+margin:0;
+padding:0;
+
+ }
+
+ header nav ul li {
+    margin-left: 20px;
+   
+ }
+ 
+ header nav ul li a {
+ text-decoration-style:solid;
+ color: antiquewhite;
+ text-decoration-style: double;
+ }
+
+.hero {
+background-image: url(bgimage.avif);
+background-size: cover;
+padding: 100px 40px;
+text-align: center;
+ }
+ .hero h2 {
+background-color: tomato;
+border: 2px solid black;
+color: antiquewhite;
+display: inline-block;
+font-size: 2.5rem;
+ }
+
+ .hero button {
+   background-color: tomato;
+   color: antiquewhite;
+   border: none;
+   margin-top: 10px;
+   font-size: 20px;
+   cursor: pointer;
+   padding: 10px 20px;
+ }
+
+ .menu {
+text-align: center;
+padding: 50px 20px;
+ }
+ .menu h2 {
+   font-size: 30px;
+   margin-bottom: 30px;
+ }
+
+ .menu .menu-item {
+text-align: center;
+display: inline-block;
+margin:0;
+width: 30%
+ }
+ .menu .menu-item img {
+width: 100%;
+height: auto;
+border-radius: 15px;
+width: 340px;
+height: 190px;
+cursor: pointer;
+
+ }
+ .menu .menu-item h2 {
+margin: 15px 0px 11px;
+font-size: 1rem;
+
+ }
+ .menu .menu-item p {
+margin: 0 0 10px;
+
+ }
+ .menu .menu-item span {
+ font-size: 15px;
+ color: tomato;
+ }
+ footer {
+
+background-color:rgb(43, 50, 57);
+color: antiquewhite;
+padding:10px 0 ;
+margin-top: 50px;
+ text-align: center;
+ font-size: 14px;
+ }
